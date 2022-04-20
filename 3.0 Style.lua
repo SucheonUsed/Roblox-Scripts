@@ -52,7 +52,7 @@ print("Loadded SS GUI V1")
 					xOpen.MouseButton1Click:Connect(function()
 						xOpenMain.Visible = false
 						xCloseMain.Visible = true
-						CG.ScreenGui.MainFrame.Visible = true
+						CG.SS.MainFrame.Visible = true
 					end)
 					xCloseMain.Name = "xCloseMain"
 					xCloseMain.Parent = xDestroyer
@@ -76,7 +76,7 @@ print("Loadded SS GUI V1")
 					xClose.MouseButton1Click:Connect(function()
 						xOpenMain.Visible = true
 						xCloseMain.Visible = false
-						CG.ScreenGui.MainFrame.Visible = false
+						CG.SS.MainFrame.Visible = false
 
 					end)
 				end
