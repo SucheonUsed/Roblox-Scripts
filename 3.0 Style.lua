@@ -1,4 +1,4 @@
-print("Loadded SS GUI")
+print("Loadded SS GUI V1")
 			-- Open/Close
 			local CoreGui = game:GetService("StarterGui")
 
