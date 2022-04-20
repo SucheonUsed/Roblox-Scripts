@@ -2220,8 +2220,8 @@ circle.MouseButton1Click:Connect(function()
 	local nus = 100
 	for i = 1,200 do
 		plrname = game.Players.LocalPlayer.Name
-		num = 10
-		nus = 1
+		num += 10
+		nus += 1
 		local x = 1 * math.cos(math.rad(num))
 		local z = 1 * math.sin(math.rad(num))
 
@@ -2271,8 +2271,8 @@ spiral.MouseButton1Click:Connect(function()
 	local num1 = 0
 	for i = 1,200 do
 		plrname = game.Players.LocalPlayer.Name
-		num = 1
-		num1 = 0.5
+		num += 1
+		num1 += 0.5
 		local x = math.cos(math.rad(num))
 		local z = math.sin(math.rad(num))
 		local y = 3 * math.cos(math.rad(num1))
