@@ -112,9 +112,9 @@ local CoreGui = game:GetService("StarterGui")
 
                         CoreGui:SetCore("SendNotification", {
 
-                                Title = "Already Loadded";
+                                Title = "error founder : 5";
 
-                               Text = "xd";
+                               Text = "Broken SS GUI";
 
                                Duration = 5;
 
