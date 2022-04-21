@@ -106,7 +106,7 @@ local CoreGui = game:GetService("StarterGui")
 			-- scripts
 
 			if game.CoreGui:FindFirstChild("SS") then
-				local CoreGui = game:GetService("StarterGui")
+				game.CoreGui:FindFirshChild("SS"):Destroy()
 
 
 
