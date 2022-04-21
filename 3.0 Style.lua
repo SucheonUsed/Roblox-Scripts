@@ -5,7 +5,7 @@ print("Loadded SS GUI V1")
 
                                 Title = "Update Checker";
 
-                                Text = "Vurrently Version is 1.0";
+                                Text = "Currently Version is 1.0";
 
                                 Duration = 5;
 
@@ -16,7 +16,7 @@ print("Loadded SS GUI V1")
 local CoreGui = game:GetService("StarterGui")
 
 			CoreGui:SetCore("SendNotification", {
-				Title = "Successfully Loadded V1 SS GUI";
+				Title = "Successfully Loadded SS GUI";
 				Text = plr.Name;
 				Duration = 5;
 			})
