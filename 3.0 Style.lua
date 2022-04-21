@@ -104,8 +104,20 @@ local CoreGui = game:GetService("StarterGui")
 			end)
 			-- scripts
 
-			if game.CoreGui:FindFirstChild("ScreenGui") then
-				UIS:Destroy()
+			if game.CoreGui:FindFirstChild("SS") then
+				local CoreGui = game:GetService("StarterGui")
+
+
+
+                        CoreGui:SetCore("SendNotification", {
+
+                                Title = "Already Loadded";
+
+                               Text = "xd";
+
+                               Duration = 5;
+
+                        })
 			end
 
 			--uicorners
