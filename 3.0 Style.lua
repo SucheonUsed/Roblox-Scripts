@@ -1,3 +1,4 @@
+if not game.CoreGui:FindFirstChild("SS") then
 print("Loadded SS GUI V1")
 			-- Open/Close
 		local plr = game.Players.LocalPlayer	
@@ -4609,3 +4610,4 @@ God2_2.Visible = true
 			-- check_box.MouseButton1Click:Connect(function()
 			-- 	print("vertify gui")
 			-- end)
+end
