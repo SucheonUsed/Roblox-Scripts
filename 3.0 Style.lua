@@ -4,7 +4,7 @@ print("Loadded SS GUI V1")
 
 			CoreGui:SetCore("SendNotification", {
 				Title = "Loadded SS GUI!";
-				Text = "Version 1";
+				Text = "Currently Version 1";
 				Duration = 5;
 			})
 			local UIS = game:GetService("UserInputService")
