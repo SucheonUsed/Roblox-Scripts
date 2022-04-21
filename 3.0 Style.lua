@@ -1918,6 +1918,7 @@ print("Loadded SS GUI V1")
 				local tool = Instance.new("HopperBin")
 				tool.Parent = game.Players.LocalPlayer.Backpack
 				tool.Name = "Destroy"
+                                tool.Icon = "rbxasset://textures\\GunCursor.png"
 				function onButton1Down(mouse)
 					local part  = mouse.Target
 					if part == nil or enabled == false then return end
