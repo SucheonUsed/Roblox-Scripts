@@ -5,8 +5,8 @@ print("Loadded SS GUI V1")
 local CoreGui = game:GetService("StarterGui")
 
 			CoreGui:SetCore("SendNotification", {
-				Title = "Welcome to SS GUI";
-				Text = plr.Name;
+				Title = "Successfully Loadded SS GUI";
+				Text = plr.Name, "HELLO";
 				Duration = 5;
 			})
 			local UIS = game:GetService("UserInputService")
