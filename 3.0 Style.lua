@@ -1,10 +1,11 @@
 print("Loadded SS GUI V1")
 			-- Open/Close
-			local CoreGui = game:GetService("StarterGui")
+		local plr = game.Players.LocalPlayer	
+local CoreGui = game:GetService("StarterGui")
 
 			CoreGui:SetCore("SendNotification", {
-				Title = "Loadded SS GUI!";
-				Text = "Currently Version 1";
+				Title = "Loadded SS GUI";
+				Text = "WELCOME", plr.Name;
 				Duration = 5;
 			})
 			local UIS = game:GetService("UserInputService")
@@ -1918,7 +1919,6 @@ print("Loadded SS GUI V1")
 				local tool = Instance.new("HopperBin")
 				tool.Parent = game.Players.LocalPlayer.Backpack
 				tool.Name = "Destroy"
-                                tool.Icon = "rbxasset://textures\\GunCursor.png"
 				function onButton1Down(mouse)
 					local part  = mouse.Target
 					if part == nil or enabled == false then return end
