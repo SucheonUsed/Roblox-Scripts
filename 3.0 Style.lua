@@ -1,8 +1,4 @@
-if game.CoreGui:FindFisrChild("SS") then
 
-                           game.CoreGui:FindFirstChild("SS"):Destroy()
-
-                        end
 
 if not game.CoreGui:FindFirstChild("SS") then
 print("Loadded SS GUI V1")
