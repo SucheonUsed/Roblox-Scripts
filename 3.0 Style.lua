@@ -105,20 +105,7 @@ local CoreGui = game:GetService("StarterGui")
 			end)
 			-- scripts
 
-			if game.CoreGui:FindFirstChild("SS") then
-
-
-
-                        CoreGui:SetCore("SendNotification", {
-
-                                Title = "error founder : 5";
-
-                               Text = "Broken SS GUI";
-
-                               Duration = 5;
-
-                        })
-			end
+			
 
 			--uicorners
 
