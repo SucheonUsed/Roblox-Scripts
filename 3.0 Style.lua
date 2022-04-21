@@ -1,4 +1,4 @@
-if game.CoreGui:FindFisrChild("SS") ~= nil then
+if game.CoreGui:FindFisrChild("SS") then
 
                            game.CoreGui:FindFirstChild("SS"):Destroy()
 
