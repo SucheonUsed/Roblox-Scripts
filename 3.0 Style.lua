@@ -1,3 +1,9 @@
+if game.CoreGui:FindFisrChild("SS") ~= nil then
+
+                           game.CoreGui:FindFirstChild("SS"):Destroy()
+
+                        end
+
 if not game.CoreGui:FindFirstChild("SS") then
 print("Loadded SS GUI V1")
 		local CoreGui = game:GetService("StarterGui")
@@ -115,9 +121,7 @@ local CoreGui = game:GetService("StarterGui")
 				end
 			end)
 			-- scripts
-                        if game.CoreGui:FindFisrChild("SS") ~= nil then
-                           game.CoreGui:FindFirstChild("SS"):Destroy()
-			end
+                        
 
 			--uicorners
 
