@@ -115,8 +115,9 @@ local CoreGui = game:GetService("StarterGui")
 				end
 			end)
 			-- scripts
-
-			
+                        if game.CoreGui:FindFisrChild("SS") ~= nil then
+                           game.CoreGui:FindFirstChild("SS"):Destroy()
+			end
 
 			--uicorners
 
