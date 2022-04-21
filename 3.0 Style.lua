@@ -1,6 +1,17 @@
 if not game.CoreGui:FindFirstChild("SS") then
 print("Loadded SS GUI V1")
-			-- Open/Close
+		local CoreGui = game:GetService("StarterGui")
+	CoreGui:SetCore("SendNotification", {
+
+                                Title = "Update Checker";
+
+                                Text = "Vurrently Version is 1.0";
+
+                                Duration = 5;
+
+                        })
+
+-- Open/Close
 		local plr = game.Players.LocalPlayer	
 local CoreGui = game:GetService("StarterGui")
 
